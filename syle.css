@@ -1,7 +1,13 @@
-@font-face{
-    font-family: "minecraft";
-    src: url('fonts/minecraft.ttf') format(truetype);
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/Minecraft.eot');
+    src: url('fonts/Minecraft.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Minecraft.woff2') format('woff2'),
+        url('fonts/Minecraft.woff') format('woff'),
+        url('fonts/Minecraft.ttf') format('truetype');
 }
+
+
 
 body {
     background-color:rgb(137, 126, 220);
