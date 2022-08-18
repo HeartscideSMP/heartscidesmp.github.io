@@ -85,7 +85,8 @@ body {
     background-color: aqua;
     border-radius: 10px;
     margin-bottom: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .welcome2 {
@@ -93,7 +94,8 @@ body {
     height: 400px;
     background-color: aqua;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 img {
