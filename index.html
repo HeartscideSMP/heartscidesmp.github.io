@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,16 @@
     <meta name="author" content="HeartscideSMP">
     <title>HeartscideSMP</title>
     <link rel="stylesheet" href="syle.css">
+    <script>
+        function copyText() {
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("game1.falixserver.net:10084");
+            alert("Copied the text: " + "game1.falixserver.net:10084");
+        }
+    </script>
 </head>
+
 <body>
     <div class="page">
         <header>
@@ -27,8 +37,12 @@
                 <div class="row">
                     <div class="welcome1">
                         <p class="mc small2 p10">
-                            Welcome to the HeartscideSMP! A lifesteal server where if you kill another player you gain a heart and they lose one!
+                            Welcome to the HeartscideSMP! A lifesteal server where if you kill another player you gain a
+                            heart and they lose one!
                         </p>
+                        <div class="row button-box">
+                            <button onclick="copyText()" class="copy-button mc small3">Click to copy IP</button>
+                        </div>
                     </div>
                     <div class="welcome2">
                         <img class="LordTrolley" src="/images/Server.png" alt="">
@@ -65,4 +79,5 @@
         </div>
     </div>
 </body>
+
 </html>
