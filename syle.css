@@ -22,6 +22,7 @@ body {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 10px;
 }
 
 .mc {
@@ -91,10 +92,13 @@ body {
 
 img {
     width: 150px;
+    border-radius: 5px;
 }
 
 .LordTrolley {
-    width: 300px;
+    min-width: 100px;
+    max-width: 300px;
+    width: auto;
     margin-top: 30px;
     margin-left: 30px;
 }
